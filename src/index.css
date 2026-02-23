@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+/* โหมดสว่าง (team3) - ค่าเริ่มต้น */
+:root {
+  --navy: #1b2d5e;
+  --navy2: #243672;
+  --blue: #3358b8;
+  --sky: #5b8de8;
+  --pale: #eef3fc;
+  --bg: #f7f9fe;
+  --white: #ffffff;
+  --ink: #1a2340;
+  --mid: #4a5e8a;
+  --muted: #8a9bc0;
+  --border: #dde6f5;
+  --green: #3ecf8e;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* โหมดมืด - เมื่อมี class .dark บน html */
+html.dark {
+  --navy: #1b2d5e;
+  --navy2: #243672;
+  --blue: #5b8de8;
+  --sky: #7ba3f5;
+  --pale: #1e293b;
+  --bg: #0f172a;
+  --white: #1e293b;
+  --ink: #f1f5f9;
+  --mid: #94a3b8;
+  --muted: #64748b;
+  --border: #334155;
+  --green: #34d399;
+}
+
+/* สำหรับ component ที่อ้างอิงชื่อเดิม */
+:root {
+  --color-bg: var(--bg);
+  --color-surface: var(--white);
+  --color-text: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--blue);
+  --color-accent-hover: var(--sky);
+  --color-accent-soft: var(--pale);
+  --font-display: var(--font-sans);
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.8;
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Section label แบบ team3 (เลข + ขีด + ชื่อ) */
+.sec-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.sec-num {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--sky);
+  letter-spacing: 0.1em;
+}
+
+.sec-dash {
+  width: 20px;
+  height: 1px;
+  background: var(--border);
+}
+
+.sec-name {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Scroll reveal */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Gradient text */
+.text-gradient-accent {
+  color: var(--sky);
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Pill button */
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  border-radius: 100px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.22s;
+}
+
+.btn-navy {
+  background: var(--navy);
+  color: #fff;
+}
+
+.btn-navy:hover {
+  background: var(--blue);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(27, 45, 94, 0.25);
+}
+
+.btn-outline {
+  background: var(--white);
+  color: var(--navy);
+  border: 1px solid var(--border);
+}
+
+.btn-outline:hover {
+  border-color: var(--sky);
+  color: var(--blue);
+}
