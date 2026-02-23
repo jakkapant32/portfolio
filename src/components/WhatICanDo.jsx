@@ -17,7 +17,7 @@ export function WhatICanDo() {
           </div>
         </ScrollReveal>
         <ScrollReveal>
-          <h2 className="text-[clamp(2rem,4vw,3rem)] font-bold text-[var(--navy)] leading-tight tracking-tight mb-16">
+          <h2 className="section-heading text-[clamp(2rem,4vw,3rem)] font-bold text-[var(--navy)] leading-tight tracking-tight mb-16">
             {t.title}
           </h2>
         </ScrollReveal>
@@ -25,8 +25,8 @@ export function WhatICanDo() {
           {t.items.map((item) => (
             <ScrollReveal key={item.title}>
               <div className="p-6 rounded-[20px] border border-[var(--border)] bg-[var(--bg)] hover:shadow-[0_10px_32px_rgba(27,45,94,0.08)] hover:-translate-y-0.5 transition-all">
-                <h3 className="text-[15px] font-semibold text-[var(--navy)] mb-2">{item.title}</h3>
-                <p className="text-[13px] text-[var(--mid)]">{item.desc}</p>
+                <h3 className="value-card-title text-[15px] font-semibold text-[var(--navy)] mb-2">{item.title}</h3>
+                <p className="value-card-desc text-[13px] text-[var(--mid)]">{item.desc}</p>
               </div>
             </ScrollReveal>
           ))}

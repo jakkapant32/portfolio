@@ -55,6 +55,23 @@ html.dark .hero-badge {
   color: var(--mid);
 }
 
+/* โหมดมืด: หัวข้อ section + เลข/ชื่อ section + เนื้อหา ให้สว่าง */
+html.dark .sec-num { color: #7ba3f5 !important; }
+html.dark .sec-name { color: #cbd5e1 !important; }
+html.dark .sec-dash { background: #475569; }
+html.dark .section-heading { color: #f1f5f9 !important; }
+html.dark .section-heading-accent { color: #7ba3f5 !important; }
+html.dark .about-body p,
+html.dark .about-body strong { color: #cbd5e1 !important; }
+html.dark .about-body strong { color: #f1f5f9 !important; }
+html.dark .exp-job-title { color: #f1f5f9 !important; }
+html.dark #experience li { color: #cbd5e1 !important; }
+html.dark .sk-heading { color: #f1f5f9 !important; }
+html.dark .sk-label { color: #cbd5e1 !important; }
+html.dark .value-card-title { color: #f1f5f9 !important; }
+html.dark .value-card-desc { color: #cbd5e1 !important; }
+html.dark .sk-icon { color: #7ba3f5 !important; }
+
 /* สำหรับ component ที่อ้างอิงชื่อเดิม */
 :root {
   --color-bg: var(--bg);

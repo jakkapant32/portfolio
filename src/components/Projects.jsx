@@ -18,8 +18,8 @@ export function Projects() {
           </div>
         </ScrollReveal>
         <ScrollReveal>
-          <h2 className="text-[clamp(2rem,4vw,3rem)] font-bold text-[var(--navy)] leading-tight tracking-tight mb-16">
-            {t.title} <span className="text-[var(--blue)] font-light italic">{t.titleHighlight}</span>
+          <h2 className="section-heading text-[clamp(2rem,4vw,3rem)] font-bold text-[var(--navy)] leading-tight tracking-tight mb-16">
+            {t.title} <span className="section-heading-accent text-[var(--blue)] font-light italic">{t.titleHighlight}</span>
           </h2>
         </ScrollReveal>
         <div className="grid md:grid-cols-3 gap-5">

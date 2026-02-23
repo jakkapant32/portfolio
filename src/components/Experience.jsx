@@ -18,8 +18,8 @@ export function Experience() {
           </div>
         </ScrollReveal>
         <ScrollReveal>
-          <h2 className="text-[clamp(2rem,4vw,3rem)] font-bold text-[var(--navy)] leading-tight tracking-tight mb-16">
-            {t.title} <span className="text-[var(--blue)] font-light italic">{t.titleHighlight}</span>
+          <h2 className="section-heading text-[clamp(2rem,4vw,3rem)] font-bold text-[var(--navy)] leading-tight tracking-tight mb-16">
+            {t.title} <span className="section-heading-accent text-[var(--blue)] font-light italic">{t.titleHighlight}</span>
           </h2>
         </ScrollReveal>
         <div className="flex flex-col gap-12">
@@ -33,7 +33,7 @@ export function Experience() {
                   </span>
                 </div>
                 <div>
-                  <div className="text-[22px] font-bold text-[var(--navy)] tracking-tight mb-1">{item.title}</div>
+                  <div className="exp-job-title text-[22px] font-bold text-[var(--navy)] tracking-tight mb-1">{item.title}</div>
                   <div className="text-xs font-semibold text-[var(--blue)] tracking-widest uppercase mb-4">{item.company}</div>
                   <ul className="list-none p-0 m-0 flex flex-col gap-2.5">
                     {item.points.map((point) => (
