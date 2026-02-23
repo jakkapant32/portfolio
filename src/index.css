@@ -33,6 +33,28 @@ html.dark {
   --green: #34d399;
 }
 
+/* โหมดมืด: ข้อความหัวหลัก + ปุ่ม + การ์ดสถิติ ให้เป็นสีสว่าง */
+html.dark .hero-title { color: #f1f5f9 !important; }
+html.dark .hero-title-accent { color: #7ba3f5 !important; }
+html.dark .btn-outline {
+  color: #e2e8f0;
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(123,163,245,0.5);
+}
+html.dark .btn-outline:hover {
+  color: #f1f5f9;
+  background: rgba(123,163,245,0.15);
+  border-color: var(--sky);
+}
+html.dark .hero-stat-value { color: #f1f5f9 !important; }
+html.dark .hero-stat-value span { color: #7ba3f5 !important; }
+html.dark .hero-stat-label { color: #94a3b8 !important; }
+html.dark .hero-badge {
+  background: rgba(30,41,59,0.8);
+  border-color: var(--border);
+  color: var(--mid);
+}
+
 /* สำหรับ component ที่อ้างอิงชื่อเดิม */
 :root {
   --color-bg: var(--bg);
