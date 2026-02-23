@@ -2,12 +2,12 @@ import { createContext, useContext, useState, useEffect } from 'react'
 
 const STORAGE_KEY = 'portfolio-lang'
 
-const LanguageContext = createContext({ language: 'th', setLanguage: () => {} })
+const LanguageContext = createContext({ language: 'en', setLanguage: () => {} })
 
 export function LanguageProvider({ children }) {
   const [language, setLanguageState] = useState(() => {
-    if (typeof window === 'undefined') return 'th'
-    return (localStorage.getItem(STORAGE_KEY) || 'th')
+    if (typeof window === 'undefined') return 'en'
+    return (localStorage.getItem(STORAGE_KEY) || 'en')
   })
 
   const setLanguage = (lang) => {

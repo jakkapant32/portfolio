@@ -12,7 +12,7 @@ export const translations = {
     },
     hero: {
       available: 'พร้อมรับงาน',
-      role: 'IT Developer & Full-stack Engineer · ขอนแก่น',
+      role: 'IT Developer & Full-stack · ขอนแก่น',
       desc: 'นักศึกษา IT (GPA 3.95) พร้อมประสบการณ์ขาย บริหารร้าน และพัฒนา CRM จริง ผสานเทคโนโลยีกับธุรกิจเพื่อเพิ่มยอดขายอย่างเป็นระบบ',
       downloadResume: 'ดาวน์โหลด Resume',
       contactMe: 'ติดต่อผม',
@@ -164,7 +164,7 @@ export const translations = {
       copied: 'คัดลอกแล้ว',
     },
     footer: {
-      role: 'นักพัฒนา IT · Full-stack Engineer',
+      role: 'นักพัฒนา IT · Full-stack',
     },
   },
   en: {
@@ -180,7 +180,7 @@ export const translations = {
     },
     hero: {
       available: 'Available for hire',
-      role: 'IT Developer & Full-stack Engineer · Khon Kaen, TH',
+      role: 'IT Developer & Full-stack · Khon Kaen, TH',
       desc: 'IT student (GPA 3.95) with real experience in sales, store management, and CRM development. Bridging technology and business to grow revenue systematically.',
       downloadResume: 'Download Resume',
       contactMe: 'Contact Me',
@@ -332,7 +332,7 @@ export const translations = {
       copied: 'Copied!',
     },
     footer: {
-      role: 'IT Developer · Full-stack Engineer',
+      role: 'IT Developer · Full-stack',
     },
   },
 }
