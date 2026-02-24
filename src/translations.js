@@ -6,6 +6,7 @@ export const translations = {
       skills: 'ทักษะ',
       projects: 'โปรเจกต์',
       value: 'สิ่งที่ผมทำได้',
+      creative: 'งานครีเอทีฟ',
       contact: 'ติดต่อ',
       hireMe: 'จ้างผม',
       menu: 'เมนู',
@@ -136,6 +137,18 @@ export const translations = {
         },
       ],
     },
+    creative: {
+      secName: 'งานครีเอทีฟ',
+      title: 'งาน',
+      titleHighlight: 'ครีเอทีฟ',
+      video: 'ผลงานวิดีโอ',
+      catalog: 'E-Catalog',
+      links: {
+        tiktok: { label: 'TikTok', url: 'https://www.tiktok.com/@tum_ti_' },
+        youtube: { label: 'YouTube', url: 'https://www.youtube.com/@triplem8646' },
+        catalog: { label: 'Catalog โรงพยาบาล', url: 'https://online.fliphtml5.com/veuzw/xcwv/' },
+      },
+    },
     value: {
       secName: 'คุณค่า',
       title: 'สิ่งที่ผมทำได้ให้ธุรกิจคุณ',
@@ -174,6 +187,7 @@ export const translations = {
       skills: 'Skills',
       projects: 'Projects',
       value: 'What I Do',
+      creative: 'Creative',
       contact: 'Contact',
       hireMe: 'Hire Me',
       menu: 'Menu',
@@ -303,6 +317,18 @@ export const translations = {
           url: 'https://allwheelrent.com/',
         },
       ],
+    },
+    creative: {
+      secName: 'Creative',
+      title: 'Creative',
+      titleHighlight: 'work',
+      video: 'Video work',
+      catalog: 'E-Catalog',
+      links: {
+        tiktok: { label: 'TikTok', url: 'https://www.tiktok.com/@tum_ti_' },
+        youtube: { label: 'YouTube', url: 'https://www.youtube.com/@triplem8646' },
+        catalog: { label: 'Hospital Catalog', url: 'https://online.fliphtml5.com/veuzw/xcwv/' },
+      },
     },
     value: {
       secName: 'Value',

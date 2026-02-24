@@ -3,7 +3,7 @@ import { ThemeToggle } from './ThemeToggle'
 import { useLanguage } from '../context/LanguageContext'
 import { translations } from '../translations'
 
-const LINK_IDS = ['about', 'experience', 'skills', 'projects', 'value', 'contact']
+const LINK_IDS = ['about', 'experience', 'skills', 'projects', 'value', 'creative', 'contact']
 
 export function Nav() {
   const [open, setOpen] = useState(false)

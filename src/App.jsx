@@ -5,6 +5,7 @@ import { Experience } from './components/Experience'
 import { Skills } from './components/Skills'
 import { Projects } from './components/Projects'
 import { WhatICanDo } from './components/WhatICanDo'
+import { Creative } from './components/Creative'
 import { Contact } from './components/Contact'
 import { useLanguage } from './context/LanguageContext'
 import { translations } from './translations'
@@ -23,6 +24,7 @@ function App() {
         <Skills />
         <Projects />
         <WhatICanDo />
+        <Creative />
         <Contact />
       </main>
       <footer className="py-7 px-6 md:px-[72px] flex flex-col md:flex-row justify-between items-center gap-2 bg-[#111a36]">
