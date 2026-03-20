@@ -146,7 +146,7 @@ export const translations = {
       links: {
         tiktok: { label: 'TikTok', url: 'https://www.tiktok.com/@tum_ti_' },
         youtube: { label: 'YouTube', url: 'https://www.youtube.com/@triplem8646' },
-        catalog: { label: 'Catalog โรงพยาบาล', url: 'https://online.fliphtml5.com/veuzw/xcwv/' },
+        catalog: { label: 'Example', url: 'https://online.fliphtml5.com/veuzw/E-Catalog_office-equipment/' },
       },
     },
     value: {
@@ -327,7 +327,7 @@ export const translations = {
       links: {
         tiktok: { label: 'TikTok', url: 'https://www.tiktok.com/@tum_ti_' },
         youtube: { label: 'YouTube', url: 'https://www.youtube.com/@triplem8646' },
-        catalog: { label: 'Hospital Catalog', url: 'https://online.fliphtml5.com/veuzw/xcwv/' },
+        catalog: { label: 'Example', url: 'https://online.fliphtml5.com/veuzw/E-Catalog_office-equipment/' },
       },
     },
     value: {
